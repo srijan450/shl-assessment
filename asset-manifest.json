@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shl-assessment/static/css/main.332d1225.css",
+    "main.js": "/shl-assessment/static/js/main.9e86347e.js",
+    "static/js/787.b0953e6b.chunk.js": "/shl-assessment/static/js/787.b0953e6b.chunk.js",
+    "index.html": "/shl-assessment/index.html",
+    "main.332d1225.css.map": "/shl-assessment/static/css/main.332d1225.css.map",
+    "main.9e86347e.js.map": "/shl-assessment/static/js/main.9e86347e.js.map",
+    "787.b0953e6b.chunk.js.map": "/shl-assessment/static/js/787.b0953e6b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.332d1225.css",
+    "static/js/main.9e86347e.js"
+  ]
+}
