@@ -6,7 +6,7 @@ import routes from "./routes/routes.js";
 import cors from "cors";
 
 const corsOptions = {
-  origin: process.env.ENV
+  origin: process.env.ENV==="local"
     ? "http://localhost:3000"
     : "https://srijan450.github.io/",
   credentials: true,
