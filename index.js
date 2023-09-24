@@ -9,6 +9,8 @@ const corsOptions = {
   origin: process.env.ENV
     ? "http://localhost:3000"
     : "https://srijan450.github.io/",
+  credentials: true,
+  optionSuccessStatus: 200,
 };
 
 const port = process.env.PORT || 8000;
