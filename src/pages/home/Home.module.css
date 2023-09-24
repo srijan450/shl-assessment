@@ -1,0 +1,31 @@
+.compHeading{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+    min-height: 100%;
+    overflow-x: auto;
+    column-gap: 15px;
+    row-gap: 10px;
+    text-transform: capitalize;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0px;
+    border: 0px solid rgba(128, 128, 128, 0.301);
+    border-width: 1px 0px 1px 0px;
+    margin-bottom: 20px;
+}
+.cardContainer{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 30px;    
+}
+
+.noProject{
+    font-weight: 500;
+    color: #f55257;
+}

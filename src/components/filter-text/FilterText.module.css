@@ -1,0 +1,60 @@
+.btn{
+    padding: 10px 30px 10px 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    position: relative;
+}
+
+.filterText{
+    border: 2px solid #5adaff;
+    font-weight: 600;
+    padding: 5px 30px 5px 20px;
+}
+
+
+.quickFilters{
+    cursor: pointer;
+    display: inline;
+    font-weight: 500;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+
+.quickFilters:disabled {
+    pointer-events: none;
+}
+  
+
+.quickFilters:hover{
+    color: #fff;
+    background: #378fe9;
+    transform: translateY(-2px);
+}
+
+.quickFilters:active{    
+    transform: scale(.995);
+}
+
+.removeAllBtn:hover{
+    color: #fff;
+    background: #f55257;;
+}
+
+.filterIcon{
+position: absolute;
+right: 10px;
+padding: 1px;
+font-size: 16px;
+top: calc(50% - 12px);
+}
+.removeFilterIcon{
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+
+.removeFilterIcon:hover{
+    color: #f55257;
+    font-size: 18px;
+    top: calc(50% - 14px);
+}
+

@@ -1,0 +1,51 @@
+
+
+.loader{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(101, 101, 101, 0.626);
+    z-index: 100;
+    left: 0;
+    top: 0;
+}
+
+.loader div{
+    height: 100px;
+    width: 100px;
+    border: solid;
+    border-width: 10px 5px 10px 5px;
+    border-radius: 50%;
+animation: loaderEffect 1.5s linear infinite;
+position: absolute;
+top: calc(50% - 50px);
+left: calc(50% - 50px);
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+@keyframes multicolor {
+    from{
+        color: rgb(0, 0, 0);
+    }
+    to{
+        color: rgb(255, 255, 255);
+    }
+}
+
+.text{
+    position: absolute;
+    font-weight: 700;
+    font-size: 18px;
+    top: calc(50% - 10px);
+    left: calc(50% - 39px);
+    animation: multicolor 2s linear infinite alternate;
+}
+
+@keyframes loaderEffect {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
