@@ -8,7 +8,7 @@ import cors from "cors";
 const corsOptions = {
   origin: process.env.ENV==="local"
     ? "http://localhost:3000"
-    : "https://srijan450.github.io/",
+    : "https://srijan450.github.io",
   credentials: true,
   optionSuccessStatus: 200,
 };
