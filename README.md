@@ -81,6 +81,6 @@ It is noteworthy that no external CSS, JavaScript frameworks, or UI libraries we
 - Backend Repository: [Backend Repo Link](https://github.com/srijan450/shl-assessment/tree/server)
 - Live Application: [Live App Link](https://srijan450.github.io/shl-assessment/)
 
-A short video demonstrating the application's functionality has been recorded and can be viewed [here](https://your-loom-or-screen-casting-link).
+A short video demonstrating the application's functionality has been recorded and can be viewed [here](https://drive.google.com/file/d/17lNXQprIU5198aH2L09NUSc6Wb-wr34D/view).
 
 With this project completion I look forward for a positive reply.
